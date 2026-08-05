@@ -1,0 +1,11 @@
+/atividades-poo1-ifsc.iml
+
+# Arquivos de projeto específicos do IntelliJ
+*.iml
+.idea/
+# Configurações do VS Code (caso alterne de IDE)
+.vscode/
+# Pastas padrão de compilação
+/out/
+/target/
+/bin/
