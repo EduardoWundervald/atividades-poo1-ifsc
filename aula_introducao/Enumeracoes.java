@@ -1,3 +1,5 @@
+package aula_introducao;
+
 public class Enumeracoes {
 
 enum StatusPedido{

@@ -1,3 +1,5 @@
+package aula2026_08_10;
+
 public class VarComplexo {
     public static void main (String[] arg){
         boolean v1 = true, v2 = true;

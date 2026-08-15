@@ -1,3 +1,5 @@
+package aula_introducao;
+
 public class Booleano {
     public static void main (String[] arg){
         boolean v1 = true, v2 = true;

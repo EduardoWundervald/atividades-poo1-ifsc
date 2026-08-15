@@ -1,3 +1,5 @@
+package aula_introducao;
+
 public class Apresentacao {
     public static void main (String[] arg){
         String nome = "Eduardo";
