@@ -23,11 +23,14 @@ public class Ex21 {
             }
         }
         System.out.println("valor final da compra: R$"+ valorFinal);
-        System.out.print("Valor pago: R$");
-        double valorPago = sc.nextDouble();
-        if(valorFinal < valorPago){
-            System.out.print("Troco: R$"+ (valorPago - valorFinal));
+        if(valorFinal > 0){
+            System.out.print("Valor pago: R$");
+            double valorPago = sc.nextDouble();
+            if(valorFinal < valorPago){
+                System.out.print("Troco: R$"+ (valorPago - valorFinal));
+            }
         }
+
         System.out.println("\nObrigado, volte sempre");
         System.out.println("--------------");
     }
