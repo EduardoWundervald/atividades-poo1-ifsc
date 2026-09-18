@@ -24,7 +24,5 @@ public class Aluno{
     void estudar(){
         System.out.println(nome+" está estudando");
     }
-    void fazerProva(){
-        System.out.println(nome+" fazendo prova");
-    }
+    void fazerProva(){ System.out.println(nome+" fazendo prova"); }
 }
