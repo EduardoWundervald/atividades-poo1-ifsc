@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Turma {
-    String nome;
+    String identificacao;
     private List<Aluno> alunos;
 
     Turma (String identificacao){
@@ -13,7 +13,7 @@ public class Turma {
     }
 
     void adicionarAluno (Aluno aluno){
-        alunos.add();
+        alunos.add(aluno);
     }
     
     void listarAlunos(){
